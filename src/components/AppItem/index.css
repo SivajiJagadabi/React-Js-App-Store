@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.app-item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  background-color: white;
+  border-radius: 8px;
+  height: 165px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  margin-top: 18px;
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.app-name {
+  font-size: 22px;
+  width: 160px;
+  text-align: center;
+}
+
+/* @media screen and (max-width: 630px) {
+  .app-name {
+    font-size: 18px;
+    width: 100px;
+  }
+  .app-logo {
+    width: 70px;
+    height: 45px;
+  }
+} */
+
+@media screen and (max-width: 590px) {
+  .app-item-card {
+    width: 120px;
+    height: 110px;
+  }
+  .app-logo {
+    margin-top: 10px;
+    padding-top: 12px;
+    width: 60px;
+    height: 50px;
+  }
+  .app-name {
+    font-size: 18px;
+    width: 90px;
+  }
+}

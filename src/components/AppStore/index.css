@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Bree serif';
+}
+.app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1110px;
+}
+.heading {
+  font-size: 40px;
+}
+.search-container {
+  border: 2px solid;
+
+  border-color: #7b8794;
+  background-color: transparent;
+  border-radius: 4px;
+  width: 245px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box {
+  background-color: transparent;
+  width: 250px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.search-logo {
+  margin-top: 5px;
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.list-item {
+  display: flex;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.horizontal {
+  width: 240px;
+}
+
+.app-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  background-color: transparent;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 750px) {
+  .app-list {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .app-list {
+    min-width: 100%;
+  }
+}
